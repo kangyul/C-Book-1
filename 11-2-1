@@ -1,0 +1,21 @@
+//
+//  main.c
+//  firstC
+//
+//  Created by Yul Kang on 2021/04/10.
+//
+
+#include <stdio.h>
+
+int main(void) {
+    char str[100];
+    int strlen=0;
+    scanf("%s", str);
+    while(str[strlen] != 0)
+        strlen++;
+    printf("The length of a inputted word is: %d", strlen);
+    printf("\n");
+    return  0;
+}
+
+
